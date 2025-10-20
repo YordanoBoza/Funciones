@@ -76,7 +76,7 @@ int main() {
         if (filtrar(p))
             p.mostrar();
 
-    // uso de operador sobrecargado +
+    // uso de sobrecargado +
     cout << "\nCombinar Productos:" << endl;
     Producto combinado = p3 + p4;
     combinado.mostrar();
